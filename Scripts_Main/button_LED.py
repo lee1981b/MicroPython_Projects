@@ -3,7 +3,7 @@
 from machine import Pin
 
 led = Pin(2, Pin.OUT)
-button = Pin(13, Pin.OUT, Pin.PULL_UP)
+button = Pin(13, Pin.IN, Pin.PULL_UP)
 
 try:
     while True:

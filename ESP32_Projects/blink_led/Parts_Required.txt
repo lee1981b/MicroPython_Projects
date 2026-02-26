@@ -1,0 +1,9 @@
+- The following components are required for the blinking LED project.
+
+* blink.py (Main Script)
+* ESP32-WROVER x1
+* GPIO Extension Board x1
+* Breadboard x1
+* LED x1
+* Resistor 220Ω x1
+* Jumper M/M x2
