@@ -1,6 +1,6 @@
 # MicroPython_Projects
 
-* A small collection of MicroPython projects, included also are a small collection of projects from the 
+* A small collection of MicroPython projects, included are a small collection of projects from the 
 Freenove Ultimate Starter Kit. Updated as new Experiments & Projects come along. All Experiments & projects 
 will be based on using Kali-Linux (Main OS) & Python (Version3.13), PyCharm IDE with the MicroPython-Tools Plugin 
 package installed.
@@ -17,7 +17,7 @@ Each project under ESP32_Projects is self-contained.
 Every folder contains only the files required to upload and run that specific build on the board.
 
 ## Project Uploading:
-* Upload individual projects to the ESP32 boards. The following command will copy ony the files needed 
+* Upload individual projects to the ESP32 boards. The following command will copy only the files needed 
 for that project.
 ```bash
 mpremote cp boot.py :
@@ -25,7 +25,8 @@ mpremote cp main.py :
 mpremote cp blink.py :
 mpremote reset
 ```
-## Getting Started:
+
+### Completed Projects:
 
 1. blink_led, With this project you can see the LED is ON for one second and then OFF for one second, which
 repeats in an endless loop.
